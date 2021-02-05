@@ -29,14 +29,11 @@ const StudentDetails = ({ getStudentDetails, clearStudentDetails, deleteStudent,
                         {
                             (details) => {
                                 if (window.confirm('Are you sure you want to delete this student from the database?')) {
-                                    // Save it!
                                     console.log('student deleted.');
                                     deleteStudent(id)
                                 } else {
-                                    // Do nothing!
                                     console.log('student remains');
                                 }
-                                
                             }
                         }
                         value="Delete" />

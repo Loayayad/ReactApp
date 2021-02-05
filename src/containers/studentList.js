@@ -24,12 +24,10 @@ const StudentsList = ({list,getAllStudents}) => {
             Enter a valid name and search again
     </p>
     }
-
     return <div>
         Enter a name to search
     </div>
 }
-
 
 const mapStateToProps = (state) => {
     return {
